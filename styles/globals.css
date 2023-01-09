@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+button,
+i,
+ul,
+li {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.chakra-alert {
+  background: #e53e3e !important;
+  color: #ffffff !important;
+}
+
+.chakra-alert__title {
+  font-size: 1.5rem;
+}
+
+.chakra-alert__desc {
+  font-size: 1.4rem;
+  padding-top: 10px;
+}

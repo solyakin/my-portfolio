@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"projects.js -> ../components/ProjectsCards":{"id":"projects.js -> ../components/ProjectsCards","files":["static/chunks/components_ProjectsCards_js.js"]}}
