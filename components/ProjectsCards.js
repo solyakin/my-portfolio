@@ -9,7 +9,7 @@ import ProjectsTabs from "./ProjectsTabs";
 const allProjects = [
   {
     src: "/portfolio/img.svg",
-    href: "https://xratlas.vercel.app/",
+    href: "https://xratlas.io/",
     name: "XR-Atlas",
     text: "A website for extended reality XR euthisisatic built with Nextjs.",
     filter: "react",
