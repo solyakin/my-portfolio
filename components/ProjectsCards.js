@@ -8,6 +8,34 @@ import ProjectsTabs from "./ProjectsTabs";
 
 const allProjects = [
   {
+    src: "/portfolio/Hero.svg",
+    href: "https://seamless-landingpage-six.vercel.app/",
+    name: "Seamless POS",
+    text: "A Tool to Manage sales, inventory and employees with ease; engage customers and increase your revenue. Whether you have single or multiple stores, Book a Demo",
+    filter: "react",
+  },
+  {
+    src: "/portfolio/primera.png",
+    href: "https://primera-reb.netlify.app/",
+    name: "Primera Bank",
+    text: "A demo website for primera bank built with Nextjs.",
+    filter: "react",
+  },
+  {
+    src: "/portfolio/store.png",
+    href: "https://business-app-zix7.vercel.app/",
+    name: "Sale Track",
+    text: "A robost store manager web application built to enable vendors manage sales, inventory and customer data",
+    filter: "react",
+  },
+  {
+    src: "/portfolio/teachai.png",
+    href: "/https://teachai.app/",
+    name: "Teach AI",
+    text: "A low-code platform for developers to fine-tune and maintain Stable Diffusion models without knowledge of MLOps.",
+    filter: "react",
+  },
+  {
     src: "/portfolio/img.svg",
     href: "https://xratlas.io/",
     name: "XR-Atlas",
@@ -66,7 +94,7 @@ export default function ProjectCards() {
       imagesLoaded(containerRef, function () {
         const initializeIsotope = new Isotope(containerRef.current, {
           itemSelector: ".card-item",
-          sortBy: "random",
+          sortBy: "none",
           layoutMode: "fitRows",
         });
         setIso(initializeIsotope);
