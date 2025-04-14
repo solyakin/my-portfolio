@@ -46,7 +46,7 @@ export default function WhoAmI() {
         lineHeight="short"
         mt={[3, 3, 3, 0]}
       >
-        I'm a{" "}
+        {/* {" "}
         <Text as="strong" color="secondary">
           Front-End Developer
         </Text>{" "}
@@ -57,10 +57,15 @@ export default function WhoAmI() {
           backgroundClip="text"
         >
           Nigeria{" "}
+        </Text>{" "} */}
+        I'm a results-oriented 
+        {" "}
+        <Text as="strong" color="secondary">
+          Front-End Developer
         </Text>{" "}
-        who enjoys creating user-friendly websites and web applications. I write
-        semantic, scalable, easy-to-maintain, cross-browser compatible, and
-        efficient standards-based code.
+        with 5+ years of experience building and scaling enterprise-
+level web applications. Expertise in React, TypeScript, Next.js and several design systems. Proven
+ability to lead projects from concept to launch, mentoring, and drive rapid iteration.
         <br />
         When I am not coding, I watch movies, play chess or learn new things.
       </Text>

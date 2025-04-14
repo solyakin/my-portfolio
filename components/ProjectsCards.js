@@ -8,6 +8,20 @@ import ProjectsTabs from "./ProjectsTabs";
 
 const allProjects = [
   {
+    src: "/portfolio/koinsbank.png",
+    href: "https://www.koinsbank.com/",
+    name: "Primera Bank",
+    text: "A demo website for koins bank built with Nextjs.",
+    filter: "react",
+  },
+  {
+    src: "/portfolio/meprotocol.png",
+    href: "https://business.meappbounty.com/",
+    name: "MeProtocol",
+    text: "A cross brand reward system for business and customer.",
+    filter: "react",
+  },
+  {
     src: "/portfolio/Hero.svg",
     href: "https://seamless-landingpage-six.vercel.app/",
     name: "Seamless POS",
@@ -15,10 +29,24 @@ const allProjects = [
     filter: "react",
   },
   {
-    src: "/portfolio/primera.png",
-    href: "https://primera-reb.netlify.app/",
-    name: "Primera Bank",
-    text: "A demo website for primera bank built with Nextjs.",
+    src: "/portfolio/90s.png",
+    href: "https://www.90smanagement.com/",
+    name: "90s Management",
+    text: "A modeling agency website.",
+    filter: "react",
+  },
+  {
+    src: "/portfolio/dandyayanfe.png",
+    href: "https://dandayanfe.com/",
+    name: "Dandy Ayanfe",
+    text: "An ecommerce website to purchase all dandyayanfe collections",
+    filter: "react",
+  },
+  {
+    src: "/portfolio/daolity.png",
+    href: "https://daolity-website.vercel.app/",
+    name: "Doality",
+    text: "Superpowers to build Web3 Features, Fast asLightning",
     filter: "react",
   },
   {
@@ -28,13 +56,13 @@ const allProjects = [
     text: "A robost store manager web application built to enable vendors manage sales, inventory and customer data",
     filter: "react",
   },
-  {
-    src: "/portfolio/teachai.png",
-    href: "/https://teachai.app/",
-    name: "Teach AI",
-    text: "A low-code platform for developers to fine-tune and maintain Stable Diffusion models without knowledge of MLOps.",
-    filter: "react",
-  },
+  // {
+  //   src: "/portfolio/teachai.png",
+  //   href: "/https://teachai.app/",
+  //   name: "Teach AI",
+  //   text: "A low-code platform for developers to fine-tune and maintain Stable Diffusion models without knowledge of MLOps.",
+  //   filter: "react",
+  // },
   {
     src: "/portfolio/img.svg",
     href: "https://xratlas.io/",
@@ -42,41 +70,41 @@ const allProjects = [
     text: "A website for extended reality XR euthisisatic built with Nextjs.",
     filter: "react",
   },
-  {
-    src: "/portfolio/pos.png",
-    href: "https://pos-app-fe.netlify.app/",
-    name: "POS App",
-    text: "POS is a transaction record platform for POS operator .",
-    filter: "react",
-  },
-  {
-    src: "/portfolio/iapp.png",
-    href: "https://iappworldwide.com/",
-    name: "Iapp worldwide",
-    text: "A super app that enable users go about their day with ease.",
-    filter: "react",
-  },
-  {
-    src: "/portfolio/moovit.png",
-    href: "https://moovitdigital.com",
-    name: "Moovit Digital",
-    text: "A digital advertisement web application",
-    filter: "react",
-  },
-  {
-    src: "/portfolio/postbird.png",
-    href: "https://postbird.netlify.app/",
-    name: "Post bird",
-    text: "A landing page for a logistic firm in lagos",
-    filter: "template",
-  },
-  {
-    src: "/portfolio/brandspoosh.png",
-    href: "https://brandspoosh.com/",
-    name: "Brand Poosh",
-    text: "A landing page for a digital branding firm based in lagos",
-    filter: "react",
-  },
+  // {
+  //   src: "/portfolio/pos.png",
+  //   href: "https://pos-app-fe.netlify.app/",
+  //   name: "POS App",
+  //   text: "POS is a transaction record platform for POS operator .",
+  //   filter: "react",
+  // },
+  // {
+  //   src: "/portfolio/iapp.png",
+  //   href: "https://iappworldwide.com/",
+  //   name: "Iapp worldwide",
+  //   text: "A super app that enable users go about their day with ease.",
+  //   filter: "react",
+  // },
+  // {
+  //   src: "/portfolio/moovit.png",
+  //   href: "https://moovitdigital.com",
+  //   name: "Moovit Digital",
+  //   text: "A digital advertisement web application",
+  //   filter: "react",
+  // },
+  // {
+  //   src: "/portfolio/postbird.png",
+  //   href: "https://postbird.netlify.app/",
+  //   name: "Post bird",
+  //   text: "A landing page for a logistic firm in lagos",
+  //   filter: "template",
+  // },
+  // {
+  //   src: "/portfolio/brandspoosh.png",
+  //   href: "https://brandspoosh.com/",
+  //   name: "Brand Poosh",
+  //   text: "A landing page for a digital branding firm based in lagos",
+  //   filter: "react",
+  // },
 
 ];
 
